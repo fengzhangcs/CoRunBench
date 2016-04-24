@@ -23,21 +23,7 @@ Thanks for your interests in CoRunBench and hope you like it.
 
 If you use this benchmark, please cite our paper:
 
-@inproceedings{bib:mascots15,
-
-  title={{To Co-Run, or Not To Co-Run: A Performance Study on Integrated Architectures}},
-
-  author={Zhang, Feng and Zhai, Jidong and Chen, Wenguang and He, Bingsheng and Zhang, Shuhao},
-
-  booktitle={Modeling, Analysis and Simulation of Computer and Telecommunication Systems (MASCOTS), 2015 IEEE 23rd International Symposium on},
-
-  pages={89--92},
-
-  year={2015},
-
-  organization={IEEE}
-
-}
+Zhang F, Zhai J, Chen W, et al. To Co-Run, or Not To Co-Run: A Performance Study on Integrated Architectures[C]//Modeling, Analysis and Simulation of Computer and Telecommunication Systems (MASCOTS), 2015 IEEE 23rd International Symposium on. IEEE, 2015: 89-92.
 
 Other programs will be released soon!
 
