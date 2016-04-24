@@ -1,0 +1,106 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALL_CFLAGS	base/Makefile	/^ALL_CFLAGS      = $(CFLAGS) $(ALL_INC_DIR)$/;"	m
+ALL_INC_DIR	base/Makefile	/^ALL_INC_DIR     = $(addprefix -I, $(LOCAL_INC_DIR) $(GLOBAL_INC_DIR))$/;"	m
+ALL_LFLAGS	base/Makefile	/^ALL_LFLAGS      = $(LDFLAGS) $(ALL_LIB_DIR)$/;"	m
+ALL_LIB_DIR	base/Makefile	/^ALL_LIB_DIR     = $(addprefix -L, $(LOCAL_LIB_DIR) $(GLOBAL_LIB_DIR))$/;"	m
+A_FNAME	tools/gen_input.c	/^char L_FNAME[32], U_FNAME[32], A_FNAME[32];$/;"	v
+BASENAMES	base/Makefile	/^BASENAMES       = $(basename $(SOURCES))$/;"	m
+BLOCK_SIZE	ocl/lud.cpp	32;"	d	file:
+BLOCK_SIZE	ocl/lud.cpp	34;"	d	file:
+BLOCK_SIZE	ocl/lud.cpp	36;"	d	file:
+BLOCK_SIZE	ocl/lud.cpp	38;"	d	file:
+CC	base/Makefile	/^CC              := gcc$/;"	m
+CC	ocl/makefile	/^CC = g++$/;"	m
+CC_FLAGS	ocl/makefile	/^CC_FLAGS = -g -O3 -Wall$/;"	m
+CFLAGS	base/Makefile	/^  CFLAGS       := ${CFLAGS}   -pg -O3$/;"	m
+CFLAGS	base/Makefile	/^  CFLAGS       := ${DEBUG_CFLAGS} ${DEBUG_CDEFS}$/;"	m
+CFLAGS	base/Makefile	/^  CFLAGS       := ${RELEASE_CFLAGS} ${RELEASE_CDEFS}$/;"	m
+CFLAGS	base/Makefile	/^CFLAGS         := ${CFLAGS} ${COMMON_CFLAGS}$/;"	m
+COMMON_CDEFS	base/Makefile	/^COMMON_CDEFS   := $/;"	m
+COMMON_CFLAGS	base/Makefile	/^COMMON_CFLAGS   := $/;"	m
+COMMON_LDFLAGS	base/Makefile	/^COMMON_LDFLAGS   := $/;"	m
+CPP_SOURCES	base/Makefile	/^CPP_SOURCES     = $(filter-out %.c, $(SOURCES))$/;"	m
+CXX	base/Makefile	/^CXX             := g++$/;"	m
+CXXFLAGS	base/Makefile	/^  CXXFLAGS     := ${CXXFLAGS} -pg -O3$/;"	m
+CXXFLAGS	base/Makefile	/^  CXXFLAGS     := ${DEBUG_CXXFLAGS} ${DEBUG_CDEFS}$/;"	m
+CXXFLAGS	base/Makefile	/^  CXXFLAGS     := ${RELEASE_CXXFLAGS} ${RELEASE_CDEFS}$/;"	m
+CXXFLAGS	base/Makefile	/^CXXFLAGS       := ${CXXFLAGS} ${COMMON_CFLAGS}$/;"	m
+C_SOURCES	base/Makefile	/^C_SOURCES       = $(filter     %.c, $(SOURCES))$/;"	m
+DEBUG	base/Makefile	/^DEBUG          := YES$/;"	m
+DEBUG_CDEFS	base/Makefile	/^DEBUG_CDEFS    := -D_DEBUG_RESULT$/;"	m
+DEBUG_CFLAGS	base/Makefile	/^DEBUG_CFLAGS    := -Wall -O0 -g$/;"	m
+DEBUG_LDFLAGS	base/Makefile	/^DEBUG_LDFLAGS    := -g$/;"	m
+EXE	ocl/makefile	/^EXE = lud$/;"	m
+EXECUTABLE	base/Makefile	/^EXECUTABLE      := lud_base$/;"	m
+FP_NUMBER	tools/gen_input.c	/^typedef double FP_NUMBER;$/;"	t	file:
+FP_NUMBER	tools/gen_input.c	/^typedef float FP_NUMBER;$/;"	t	file:
+GET_RAND_FP	common/common.h	13;"	d
+GET_RAND_FP	tools/gen_input.c	12;"	d	file:
+GLOBAL_INC_DIR	base/Makefile	/^GLOBAL_INC_DIR  =$/;"	m
+GLOBAL_LIBS	base/Makefile	/^GLOBAL_LIBS     =$/;"	m
+GLOBAL_LIBSS	base/Makefile	/^GLOBAL_LIBSS    = $(addprefix $(GLOBAL_LIB_DIR)\/, $(GLOBAL_LIBS))$/;"	m
+GLOBAL_LIB_DIR	base/Makefile	/^GLOBAL_LIB_DIR  =$/;"	m
+INC	ocl/makefile	/^INC = -I$(OPENCL_INC) -I..\/common$/;"	m
+LDFLAGS	base/Makefile	/^  LDFLAGS      := ${DEBUG_LDFLAGS}$/;"	m
+LDFLAGS	base/Makefile	/^  LDFLAGS      := ${LDFLAGS}  -pg$/;"	m
+LDFLAGS	base/Makefile	/^  LDFLAGS      := ${RELEASE_LDFLAGS}$/;"	m
+LDFLAGS	base/Makefile	/^LDFLAGS        := ${LDFLAGS} ${COMMON_LDFLAGS}$/;"	m
+LIB	ocl/makefile	/^LIB = -L$(OPENCL_LIB)$/;"	m
+LOCAL_INC_DIR	base/Makefile	/^LOCAL_INC_DIR   = ..\/common$/;"	m
+LOCAL_LIBS	base/Makefile	/^LOCAL_LIBS      =$/;"	m
+LOCAL_LIBSS	base/Makefile	/^LOCAL_LIBSS     = $(addprefix $(LOCAL_LIB_DIR)\/, $(LOCAL_LIBS))$/;"	m
+LOCAL_LIB_DIR	base/Makefile	/^LOCAL_LIB_DIR   = $/;"	m
+L_FNAME	tools/gen_input.c	/^char L_FNAME[32], U_FNAME[32], A_FNAME[32];$/;"	v
+MIN	common/common.h	16;"	d
+OBJECTS	base/Makefile	/^OBJECTS         = $(addsuffix .o,$(BASENAMES))$/;"	m
+PROFILE	base/Makefile	/^PROFILE        := NO$/;"	m
+RELEASE_CDEFS	base/Makefile	/^RELEASE_CDEFS  := $/;"	m
+RELEASE_CFLAGS	base/Makefile	/^RELEASE_CFLAGS  := -Wall -O3 $/;"	m
+RELEASE_LDFLAGS	base/Makefile	/^RELEASE_LDFLAGS  := $/;"	m
+RET_FAILURE	common/common.h	/^    RET_FAILURE$/;"	e	enum:_FUNC_RETURN_CODE
+RET_SUCCESS	common/common.h	/^    RET_SUCCESS,$/;"	e	enum:_FUNC_RETURN_CODE
+SOURCES	base/Makefile	/^SOURCES         := lud.c lud_base.c ..\/common\/common.c $/;"	m
+SYS_LIBS	base/Makefile	/^SYS_LIBS        = $/;"	m
+U_FNAME	tools/gen_input.c	/^char L_FNAME[32], U_FNAME[32], A_FNAME[32];$/;"	v
+_COMMON_H	common/common.h	2;"	d
+_FUNC_RETURN_CODE	common/common.h	/^typedef enum _FUNC_RETURN_CODE {$/;"	g
+__stopwatch_t	common/common.h	/^typedef struct __stopwatch_t{$/;"	s
+begin	common/common.h	/^    struct timeval begin;$/;"	m	struct:__stopwatch_t	typeref:struct:__stopwatch_t::timeval
+clEnqueueNDRangeKernel_fusion	ocl/lud.cpp	/^cl_int clEnqueueNDRangeKernel_fusion ( cl_command_queue* command_queue,$/;"	f
+cmd_queue	ocl/lud.cpp	/^static cl_command_queue cmd_queue[2];\/\/zf$/;"	v	file:
+context	ocl/lud.cpp	/^static cl_context	    context;$/;"	v	file:
+cpu_offset	ocl/lud.cpp	/^int cpu_offset;$/;"	v
+create_matrix	common/common.c	/^create_matrix(float **mp, int size){$/;"	f
+create_matrix_from_file	common/common.c	/^create_matrix_from_file(float **mp, const char* filename, int *size_p){$/;"	f
+create_matrix_from_random	common/common.c	/^create_matrix_from_random(float **mp, int size){$/;"	f
+device_list	ocl/lud.cpp	/^static cl_device_id    device_list[2];\/\/zf$/;"	v	file:
+device_type	ocl/lud.cpp	/^static cl_device_type   device_type;$/;"	v	file:
+do_verify	base/lud.c	/^static int do_verify = 0;$/;"	v	file:
+do_verify	ocl/lud.cpp	/^static int do_verify = 0;$/;"	v	file:
+end	common/common.h	/^    struct timeval end;$/;"	m	struct:__stopwatch_t	typeref:struct:__stopwatch_t::timeval
+errcode	ocl/lud.cpp	/^cl_int errcode;$/;"	v
+func_ret_t	common/common.h	/^}func_ret_t;$/;"	t	typeref:enum:_FUNC_RETURN_CODE
+get_interval_by_sec	common/common.c	/^get_interval_by_sec(stopwatch *sw){$/;"	f
+get_interval_by_usec	common/common.c	/^get_interval_by_usec(stopwatch *sw){$/;"	f
+gettime	ocl/lud.cpp	/^ double gettime() {$/;"	f
+initialize_fusion	ocl/lud.cpp	/^static int initialize_fusion()$/;"	f	file:
+long_options	base/lud.c	/^static struct option long_options[] = {$/;"	v	typeref:struct:option	file:
+long_options	ocl/lud.cpp	/^static struct option long_options[] = {$/;"	v	typeref:struct:option	file:
+lud_base	base/lud_base.c	/^void lud_base(float *a, int size)$/;"	f
+lud_verify	common/common.c	/^lud_verify(float *m, float *lu, int matrix_dim){$/;"	f
+main	base/lud.c	/^main ( int argc, char *argv[] )$/;"	f
+main	ocl/lud.cpp	/^main ( int argc, char *argv[] )$/;"	f
+main	tools/gen_input.c	/^int main (int argc, char **argv){$/;"	f
+matrix_duplicate	common/common.c	/^matrix_duplicate(float *src, float **dst, int matrix_dim) {$/;"	f
+matrix_multiply	common/common.c	/^matrix_multiply(float *inputa, float *inputb, float *output, int size){$/;"	f
+num_devices	ocl/lud.cpp	/^static cl_uint           num_devices;$/;"	v	file:
+print_matrix	common/common.c	/^print_matrix(float *m, int matrix_dim) {$/;"	f
+shutdown	ocl/lud.cpp	/^static int shutdown()$/;"	f	file:
+stopwatch	common/common.h	/^}stopwatch;$/;"	t	typeref:struct:__stopwatch_t
+stopwatch_start	common/common.c	/^void stopwatch_start(stopwatch *sw){$/;"	f
+stopwatch_stop	common/common.c	/^void stopwatch_stop(stopwatch *sw){$/;"	f

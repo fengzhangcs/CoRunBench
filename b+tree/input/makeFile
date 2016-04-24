@@ -1,0 +1,3 @@
+all:
+	gcc DataGenerate.c -o main
+	

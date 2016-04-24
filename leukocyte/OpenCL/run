@@ -1,0 +1,4 @@
+make clean
+rm result.txt
+make
+./leukocyte ../../../data/leukocyte/testfile.avi 10 30

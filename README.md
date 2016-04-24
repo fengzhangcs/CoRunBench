@@ -19,11 +19,11 @@ Using this command:
 bash run_perfall.sh;
 5. If you wants to try single application, please go into its directory and run related bash file.
 
-Thanks for your interests in CoRunBench and hope you like it.
-
 If you use this benchmark, please cite our paper:
 
 Zhang F, Zhai J, Chen W, et al. To Co-Run, or Not To Co-Run: A Performance Study on Integrated Architectures[C]//Modeling, Analysis and Simulation of Computer and Telecommunication Systems (MASCOTS), 2015 IEEE 23rd International Symposium on. IEEE, 2015: 89-92.
+
+Thanks for your interests in CoRunBench and hope you like it.
 
 Other programs will be released soon!
 

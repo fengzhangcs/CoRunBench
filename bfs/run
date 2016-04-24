@@ -1,0 +1,15 @@
+#!/bin/bash
+rm perf*
+rm result*
+make clean
+make
+for j in 0
+do
+for i in 0 1 2 4 8 16 32 50 64 75 100
+do
+	echo "cpu_offset $i%"
+	#./bfs ../../data/bfs/graph1MW_6.txt "$i" "$j">>result.txt
+	./bfs ../../data/bfs/graph4096.txt "$i" "$j">>result.txt
+	#perf stat -o perf.txt --append -e cycles,instructions,LLC-loads,LLC-load-misses,dTLB-loads,dTLB-load-misses  ./bfs ../../data/bfs/65536.txt "$i" "$j">>result.txt
+done
+done
