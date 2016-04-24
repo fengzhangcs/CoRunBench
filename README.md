@@ -11,13 +11,13 @@ You can use the following command:
 tar xzvf data.tar.gz;
 mv data ..;
 2. Please set the OpenCL path in the file: common/make.config.
-3. Change the first and second lines of run_all.sh.
+3. Change the first and second lines of "run_all.sh".
 program_dir is the root of CoRunBench and result_dir is the place you want to store the result.
-Run the script, run_all.sh, to get performance results.
+Run the script, "run_all.sh", to get performance results.
 Using this command:
 bash run_all.sh;
-4. Change the first and second lines of run_perfall.sh.
-program_dir is the root of CoRunBench and result_dir is the place you want to store the result. Run the script, run_perfall.sh, to get performance results.
+4. Change the first and second lines of "run_perfall.sh".
+program_dir is the root of CoRunBench and result_dir is the place you want to store the result. Run the script, "run_perfall.sh", to get performance results.
 Using this command:
 bash run_perfall.sh;
 5. If you wants to try single application, please go into its directory and run related bash file.
