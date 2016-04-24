@@ -6,16 +6,30 @@ http://www.cs.virginia.edu/~skadron/wiki/rodinia/index.php/Rodinia:Accelerating_
 http://impact.crhc.illinois.edu/parboil/parboil.aspx
 http://web.cse.ohio-state.edu/~pouchet/software/polybench/GPU/
 
-1. Please set the OpenCL path in the file: common/make.config.
-2. Run the script, run_all.sh, to get performance results.
+1.You need to unzip the input data and make the directory "data" and the directory "CoRunBench" is the same directory.
+You can use the following command:
+tar xzvf data.tar.gz
+mv data ..
+2. Please set the OpenCL path in the file: common/make.config.
+3. Run the script, run_all.sh, to get performance results.
 Using this command:
 bash run_all.sh
-3. Run the script, run_perfall.sh, to get performance results.
+4. Run the script, run_perfall.sh, to get performance results.
 Using this command:
 bash run_perfall.sh
-4. If you wants to try single application, please go into its directory and run related bash file.
+5. If you wants to try single application, please go into its directory and run related bash file.
 
 Thanks for your interests in CoRunBench and hope you like it.
+
+If you use this benchmark, please cite our paper:
+@inproceedings{bib:mascots15,
+  title={{To Co-Run, or Not To Co-Run: A Performance Study on Integrated Architectures}},
+  author={Zhang, Feng and Zhai, Jidong and Chen, Wenguang and He, Bingsheng and Zhang, Shuhao},
+  booktitle={Modeling, Analysis and Simulation of Computer and Telecommunication Systems (MASCOTS), 2015 IEEE 23rd International Symposium on},
+  pages={89--92},
+  year={2015},
+  organization={IEEE}
+}
 
 Other programs will be released soon!
 
