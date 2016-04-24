@@ -6,7 +6,7 @@ http://www.cs.virginia.edu/~skadron/wiki/rodinia/index.php/Rodinia:Accelerating_
 http://impact.crhc.illinois.edu/parboil/parboil.aspx
 http://web.cse.ohio-state.edu/~pouchet/software/polybench/GPU/
 
-1.You need to unzip the input data and make the directory "data" and the directory "CoRunBench" is the same directory.
+1. You need to unzip the input data and make the directory "data" and the directory "CoRunBench" is the same directory.
 You can use the following command:
 tar xzvf data.tar.gz
 mv data ..
