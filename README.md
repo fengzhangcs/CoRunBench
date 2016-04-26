@@ -42,8 +42,8 @@ Zhang F, Zhai J, Chen W, et al. To Co-Run, or Not To Co-Run: A Performance Study
 
 
 If you have problems, please contact:
-zhangfeng.thu.hpc@gmail.com
-tonyzhang19900609@gmail.com
+* zhangfeng.thu.hpc@gmail.com
+* tonyzhang19900609@gmail.com
 
 Thanks for your interests in CoRunBench and hope you like it.
 
