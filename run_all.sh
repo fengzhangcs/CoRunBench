@@ -64,6 +64,54 @@ bash run_dwarves.sh | tee $result_dir/19dwt2d.txt
 cd $program_dir/hybridsort
 bash run_dwarves.sh | tee $result_dir/20hybridsort.txt
 
+
+cd $program_dir/2DCONV
+bash run_dwarves.sh | tee $result_dir/21_2DCONV.txt
+
+cd $program_dir/3DCONV
+bash run_dwarves.sh | tee $result_dir/22_3DCONV.txt
+
+cd $program_dir/ATAX
+bash run_dwarves.sh | tee $result_dir/23_ATAX.txt
+
+cd $program_dir/COVAR
+bash run_dwarves.sh | tee $result_dir/24_COVAR.txt
+
+cd $program_dir/GEMM
+bash run_dwarves.sh | tee $result_dir/25_GEMM.txt
+
+cd $program_dir/GRAMSCHM
+bash run_dwarves.sh | tee $result_dir/26_GRAMSCHM.txt
+
+cd $program_dir/SYR2K
+bash run_dwarves.sh | tee $result_dir/27_SYR2K.txt
+
+cd $program_dir/2MM
+bash run_dwarves.sh | tee $result_dir/28_2MM.txt
+
+cd $program_dir/3MM
+bash run_dwarves.sh | tee $result_dir/29_3MM.txt
+
+cd $program_dir/BICG
+bash run_dwarves.sh | tee $result_dir/30_BICG.txt
+
+cd $program_dir/CORR
+bash run_dwarves.sh | tee $result_dir/31_CORR.txt
+
+cd $program_dir/FDTD-2D
+bash run_dwarves.sh | tee $result_dir/32_FDTD-2D.txt
+
+cd $program_dir/GESUMMV
+bash run_dwarves.sh | tee $result_dir/33_GESUMMV.txt
+
+cd $program_dir/MVT
+bash run_dwarves.sh | tee $result_dir/34_MVT.txt
+
+cd $program_dir/SYRK
+bash run_dwarves.sh | tee $result_dir/35_SYRK.txt
+
+
+
 cd $result_dir
 mkdir -p tempt
 grep CAUT 1[a-z]*.txt | awk '{print $3}' > tempt/0.txt
@@ -88,12 +136,27 @@ grep CAUT 18[a-z]*.txt | awk '{print $5}' > tempt/18.txt
 grep CAUT 19[a-z]*.txt | awk '{print $5}' > tempt/19.txt
 grep CAUT 20[a-z]*.txt | awk '{print $5}' > tempt/20.txt
 
+grep CAUT 21_*[A-Z].txt | awk '{print $7}' > tempt/21.txt
+grep CAUT 22_*[A-Z].txt | awk '{print $7}' > tempt/22.txt
+grep CAUT 23_*[A-Z].txt | awk '{print $7}' > tempt/23.txt
+grep CAUT 24_*[A-Z].txt | awk '{print $7}' > tempt/24.txt
+grep CAUT 25_*[A-Z].txt | awk '{print $7}' > tempt/25.txt
+grep CAUT 26_*[A-Z].txt | awk '{print $7}' > tempt/26.txt
+grep CAUT 27_*[A-Z].txt | awk '{print $7}' > tempt/27.txt
+grep CAUT 28_*[A-Z].txt | awk '{print $7}' > tempt/28.txt
+grep CAUT 29_*[A-Z].txt | awk '{print $7}' > tempt/29.txt
+grep CAUT 30_*[A-Z].txt | awk '{print $7}' > tempt/30.txt
+grep CAUT 31_*[A-Z].txt | awk '{print $7}' > tempt/31.txt
+grep CAUT 32_*[A-Z].txt | awk '{print $7}' > tempt/32.txt
+grep CAUT 33_*[A-Z].txt | awk '{print $7}' > tempt/33.txt
+grep CAUT 34_*[A-Z].txt | awk '{print $7}' > tempt/34.txt
+grep CAUT 35_*[A-Z].txt | awk '{print $7}' > tempt/35.txt
 
 
 
-echo "%, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20" > res.csv
-echo "%, leukocyte, heartwall, cfd, lud, hotspot, backpropagation, nw, kmeans, bfs, srad, streamcluster, particlefilter, pathfinder, gaussian, nn, lavamd, myocyte, b+tree, gpudwt, hybridsort" >> res.csv
-paste -d ,  tempt/0.txt tempt/1.txt tempt/2.txt tempt/3.txt tempt/4.txt tempt/5.txt tempt/6.txt tempt/7.txt tempt/8.txt tempt/9.txt tempt/10.txt tempt/11.txt tempt/12.txt tempt/13.txt tempt/14.txt tempt/15.txt tempt/16.txt tempt/17.txt tempt/18.txt tempt/19.txt tempt/20.txt >> res.csv
+echo "%, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35" > res.csv
+echo "%, leukocyte, heartwall, cfd, lud, hotspot, backpropagation, nw, kmeans, bfs, srad, streamcluster, particlefilter, pathfinder, gaussian, nn, lavamd, myocyte, b+tree, gpudwt, hybridsort, 2DCONV, 3DCONV, ATAX, COVAR, GEMM, GRAMSCHM, SYR2K, 2MM, 3MM, BICG, CORR, FDTD-2D, GESUMMV, MVT, SYRK" >> res.csv
+paste -d ,  tempt/0.txt tempt/1.txt tempt/2.txt tempt/3.txt tempt/4.txt tempt/5.txt tempt/6.txt tempt/7.txt tempt/8.txt tempt/9.txt tempt/10.txt tempt/11.txt tempt/12.txt tempt/13.txt tempt/14.txt tempt/15.txt tempt/16.txt tempt/17.txt tempt/18.txt tempt/19.txt  tempt/20.txt  tempt/21.txt  tempt/22.txt  tempt/23.txt tempt/24.txt  tempt/25.txt  tempt/26.txt  tempt/27.txt  tempt/28.txt  tempt/29.txt  tempt/30.txt   tempt/31.txt  tempt/32.txt  tempt/33.txt  tempt/34.txt tempt/35.txt >> res.csv
 
 echo "Finished! Please look at the res.csv using EXCEL."
 echo "The first column is the partitioning ratio. The time is in ms."

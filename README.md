@@ -47,7 +47,5 @@ If you have problems, please contact:
 
 Thanks for your interests in CoRunBench and hope you like it.
 
-Other programs will be released soon!
-
 Feng
 2016-Apr-24
