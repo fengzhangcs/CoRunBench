@@ -1,0 +1,4 @@
+Inputs: 120_120_150_ldc.of
+Parameters: -- 100
+
+ This is a short (100 timestep) LDC simulation

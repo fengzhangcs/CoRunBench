@@ -1,0 +1,64 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BITS	sort.cpp	17;"	d	file:
+BLOCKSIZE	OpenCL_interface.cpp	26;"	d	file:
+EXPANDED_SIZE	scanLargeArray.cpp	12;"	d	file:
+GRID_SIZE	scanLargeArray.cpp	8;"	d	file:
+LANGUAGE	Makefile	/^LANGUAGE=opencl$/;"	m
+LNB	sort.cpp	18;"	d	file:
+LOG_NUM_BANKS	scanLargeArray.cpp	10;"	d	file:
+NUM_BANKS	scanLargeArray.cpp	9;"	d	file:
+OCL_ERRCK_RETVAL	OpenCL_common.h	16;"	d
+OCL_ERRCK_VAR	OpenCL_common.h	13;"	d
+OCL_SIMPLE_ERRCK_RETVAL	OpenCL_common.h	20;"	d
+OpenCL_interface	OpenCL_interface.cpp	/^void OpenCL_interface ($/;"	f
+PI	CPU_kernels.c	19;"	d	file:
+PI	OpenCL_interface.cpp	27;"	d	file:
+PI	main.cpp	21;"	d	file:
+ReconstructionSample	UDTypes.h	/^} ReconstructionSample;$/;"	t	typeref:struct:__anon2
+SORT_BS	sort.cpp	20;"	d	file:
+SRCDIR_OBJS	Makefile	/^SRCDIR_OBJS=CPU_kernels.o main.o OpenCL_interface.o scanLargeArray.o sort.o OpenCL_common.o timer.o$/;"	m
+UINT32_MAX	sort.cpp	16;"	d	file:
+_UDTYPES_H__	UDTypes.h	10;"	d
+__OPENCL_COMMON_H_	OpenCL_common.h	3;"	d
+aquisitionMatrixSize	UDTypes.h	/^  int aquisitionMatrixSize[3];$/;"	m	struct:__anon1
+binsize	UDTypes.h	/^  int binsize;$/;"	m	struct:__anon1
+calculateLUT	CPU_kernels.c	/^void calculateLUT(float beta, float width, float** LUT, unsigned int* sizeLUT){$/;"	f
+clEnqueueNDRangeKernel_fusion	OpenCL_interface.cpp	/^cl_int clEnqueueNDRangeKernel_fusion ( cl_command_queue* command_queue,$/;"	f
+cmplx	UDTypes.h	/^} cmplx;$/;"	t	typeref:struct:__anon3
+cpu_offset	main.cpp	/^int cpu_offset ;$/;"	v
+getOpenCLDevice	OpenCL_common.cpp	/^int getOpenCLDevice(cl_platform_id *platform, cl_device_id *device, cl_device_type *reqDeviceType, int numRequests, ...) {$/;"	f
+gettime	timer.cpp	/^double gettime() {$/;"	f
+gridSize	UDTypes.h	/^  int gridSize[3];$/;"	m	struct:__anon1
+gridding_Gold	CPU_kernels.c	/^int gridding_Gold(unsigned int n, parameters params, ReconstructionSample* sample, float* LUT, unsigned int sizeLUT, cmplx* gridData, float* sampleDensity){$/;"	f
+imag	UDTypes.h	/^  float imag;$/;"	m	struct:__anon2
+imag	UDTypes.h	/^  float imag;$/;"	m	struct:__anon3
+kMax	UDTypes.h	/^  float kMax[3];$/;"	m	struct:__anon1
+kX	UDTypes.h	/^  float kX;$/;"	m	struct:__anon2
+kY	UDTypes.h	/^  float kY;$/;"	m	struct:__anon2
+kZ	UDTypes.h	/^  float kZ;$/;"	m	struct:__anon2
+kernelWidth	UDTypes.h	/^  float kernelWidth;$/;"	m	struct:__anon1
+kernel_value_CPU	CPU_kernels.c	/^float kernel_value_CPU(float v){$/;"	f
+kernel_value_LUT	CPU_kernels.c	/^float kernel_value_LUT(float v, float* LUT, int sizeLUT, float _1overCutoff2)$/;"	f
+main	main.cpp	/^int main (int argc, char* argv[]){$/;"	f
+max	CPU_kernels.c	16;"	d	file:
+min	CPU_kernels.c	17;"	d	file:
+numSamples	UDTypes.h	/^  int numSamples;$/;"	m	struct:__anon1
+oclDebugErrString	OpenCL_common.cpp	/^const char* oclDebugErrString(cl_int error, cl_device_id device)$/;"	f
+oclErrorString	OpenCL_common.cpp	/^const char* oclErrorString(cl_int error)$/;"	f
+oclLoadProgSource	OpenCL_common.cpp	/^char* oclLoadProgSource(const char* cFilename, const char* cPreamble, size_t* szFinalLength)$/;"	f
+oversample	UDTypes.h	/^  float oversample;$/;"	m	struct:__anon1
+parameters	UDTypes.h	/^}parameters;$/;"	t	typeref:struct:__anon1
+readSampleData	main.cpp	/^unsigned int readSampleData(parameters params, FILE* uksdata_f, ReconstructionSample* samples){$/;"	f
+real	UDTypes.h	/^  float real;$/;"	m	struct:__anon2
+real	UDTypes.h	/^  float real;$/;"	m	struct:__anon3
+reconstructionMatrixSize	UDTypes.h	/^  int reconstructionMatrixSize[3];$/;"	m	struct:__anon1
+scanLargeArray	scanLargeArray.cpp	/^void scanLargeArray( unsigned int gridNumElems, cl_mem data_d, cl_context clContext, cl_command_queue* clCommandQueue, const cl_device_id* clDevice, size_t *workItemSizes) {$/;"	f
+sdc	UDTypes.h	/^  float sdc;$/;"	m	struct:__anon2
+setParameters	main.cpp	/^void setParameters(FILE* file, parameters* p){$/;"	f
+sort	sort.cpp	/^void sort (int numElems, unsigned int max_value, cl_mem* &dkeysPtr, cl_mem* &dvaluesPtr, cl_mem* &dkeys_oPtr, cl_mem* &dvalues_oPtr, cl_context *clContextPtr, cl_command_queue* clCommandQueue, const cl_device_id* clDevice, size_t *workItemSizes){$/;"	f
+useLUT	UDTypes.h	/^  int useLUT;$/;"	m	struct:__anon1

@@ -1,0 +1,221 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACCEL	layout_config.h	/^              ACCEL       = 1 << 1,$/;"	e	enum:__anon2
+APP_CFLAGS	Makefile	/^APP_CFLAGS=-ffast-math -g3 -O3$/;"	m
+APP_CUDALDFLAGS	Makefile	/^APP_CUDALDFLAGS=-lm$/;"	m
+APP_CXXFLAGS	Makefile	/^APP_CXXFLAGS=-ffast-math -g3 -O3$/;"	m
+B	layout_config.h	/^              N, S, E, W, T, B,$/;"	e	enum:__anon1
+BLOCK_SIZE	layout_config.h	52;"	d
+BOOL	lbm_macros.h	16;"	d
+C	layout_config.h	/^typedef enum {C = 0,$/;"	e	enum:__anon1
+CALC_INDEX	layout_config.h	39;"	d
+CELL_ENTRIES	layout_config.h	/^              FLAGS, N_CELL_ENTRIES} CELL_ENTRIES;$/;"	t	typeref:enum:__anon1
+CELL_FLAGS	layout_config.h	/^              IN_OUT_FLOW = 1 << 2} CELL_FLAGS;$/;"	t	typeref:enum:__anon2
+CHECK_ERROR	ocl.h	15;"	d
+CLEAR_ALL_FLAGS	lbm_macros.h	173;"	d
+CLEAR_ALL_FLAGS_SWEEP	lbm_macros.h	168;"	d
+CLEAR_FLAG	lbm_macros.h	172;"	d
+CLEAR_FLAG_SWEEP	lbm_macros.h	167;"	d
+DFL1	lbm_macros.h	20;"	d
+DFL2	lbm_macros.h	21;"	d
+DFL3	lbm_macros.h	22;"	d
+DST_B	lbm_macros.h	104;"	d
+DST_B	lbm_macros.h	146;"	d
+DST_C	lbm_macros.h	140;"	d
+DST_C	lbm_macros.h	98;"	d
+DST_E	lbm_macros.h	101;"	d
+DST_E	lbm_macros.h	143;"	d
+DST_EB	lbm_macros.h	114;"	d
+DST_EB	lbm_macros.h	156;"	d
+DST_ET	lbm_macros.h	113;"	d
+DST_ET	lbm_macros.h	155;"	d
+DST_N	lbm_macros.h	141;"	d
+DST_N	lbm_macros.h	99;"	d
+DST_NB	lbm_macros.h	110;"	d
+DST_NB	lbm_macros.h	152;"	d
+DST_NE	lbm_macros.h	105;"	d
+DST_NE	lbm_macros.h	147;"	d
+DST_NT	lbm_macros.h	109;"	d
+DST_NT	lbm_macros.h	151;"	d
+DST_NW	lbm_macros.h	106;"	d
+DST_NW	lbm_macros.h	148;"	d
+DST_S	lbm_macros.h	100;"	d
+DST_S	lbm_macros.h	142;"	d
+DST_SB	lbm_macros.h	112;"	d
+DST_SB	lbm_macros.h	154;"	d
+DST_SE	lbm_macros.h	107;"	d
+DST_SE	lbm_macros.h	149;"	d
+DST_ST	lbm_macros.h	111;"	d
+DST_ST	lbm_macros.h	153;"	d
+DST_SW	lbm_macros.h	108;"	d
+DST_SW	lbm_macros.h	150;"	d
+DST_T	lbm_macros.h	103;"	d
+DST_T	lbm_macros.h	145;"	d
+DST_W	lbm_macros.h	102;"	d
+DST_W	lbm_macros.h	144;"	d
+DST_WB	lbm_macros.h	116;"	d
+DST_WB	lbm_macros.h	158;"	d
+DST_WT	lbm_macros.h	115;"	d
+DST_WT	lbm_macros.h	157;"	d
+E	layout_config.h	/^              N, S, E, W, T, B,$/;"	e	enum:__anon1
+EB	layout_config.h	/^              ET, EB, WT, WB,$/;"	e	enum:__anon1
+ET	layout_config.h	/^              ET, EB, WT, WB,$/;"	e	enum:__anon1
+FALSE	lbm_macros.h	18;"	d
+FLAGS	layout_config.h	/^              FLAGS, N_CELL_ENTRIES} CELL_ENTRIES;$/;"	e	enum:__anon1
+FLAG_VAR	lbm_macros.h	163;"	d
+GATHER	layout_config.h	46;"	d
+GRID_ENTRY	lbm_macros.h	51;"	d
+GRID_ENTRY_SWEEP	lbm_macros.h	52;"	d
+IN_OUT_FLOW	layout_config.h	/^              IN_OUT_FLOW = 1 << 2} CELL_FLAGS;$/;"	e	enum:__anon2
+LANGUAGE	Makefile	/^LANGUAGE=opencl$/;"	m
+LBM_Grid	lbm_macros.h	/^typedef float* LBM_Grid;\/\/float LBM_Grid[PADDED_Z*PADDED_Y*PADDED_X*N_CELL_ENTRIES];$/;"	t
+LBM_GridPtr	lbm_macros.h	/^typedef LBM_Grid* LBM_GridPtr;$/;"	t
+LBM_allocateGrid	lbm.c	/^void LBM_allocateGrid( float** ptr ) {$/;"	f
+LBM_freeGrid	lbm.c	/^void LBM_freeGrid( float** ptr ) {$/;"	f
+LBM_initializeGrid	lbm.c	/^void LBM_initializeGrid( LBM_Grid grid ) {$/;"	f
+LBM_initializeSpecialCellsForLDC	lbm.c	/^void LBM_initializeSpecialCellsForLDC( LBM_Grid grid ) {$/;"	f
+LBM_loadObstacleFile	lbm.c	/^void LBM_loadObstacleFile( LBM_Grid grid, const char* filename ) {$/;"	f
+LBM_showGridStatistics	lbm.c	/^void LBM_showGridStatistics( LBM_Grid grid ) {$/;"	f
+LBM_storeVelocityField	lbm.c	/^void LBM_storeVelocityField( LBM_Grid grid, const char* filename,$/;"	f
+LBM_swapGrids	lbm.c	/^void LBM_swapGrids( cl_mem* grid1, cl_mem* grid2 ) {$/;"	f
+LOCAL	lbm_macros.h	54;"	d
+MAGIC_CAST	lbm_macros.h	162;"	d
+MAIN_Param	main.h	/^} MAIN_Param;$/;"	t	typeref:struct:__anon3
+MAIN_finalize	main.c	/^void MAIN_finalize( const MAIN_Param* param, const OpenCL_Param* prm ) {$/;"	f
+MAIN_initialize	main.c	/^void MAIN_initialize( const MAIN_Param* param, const OpenCL_Param* prm ) {$/;"	f
+MAIN_parseCommandLine	main.c	/^void MAIN_parseCommandLine( int nArgs, char* arg[], MAIN_Param* param, struct pb_Parameters * params ) {$/;"	f
+MAIN_printInfo	main.c	/^void MAIN_printInfo( const MAIN_Param* param ) {$/;"	f
+MARGIN	layout_config.h	42;"	d
+N	layout_config.h	/^              N, S, E, W, T, B,$/;"	e	enum:__anon1
+NB	layout_config.h	/^              NT, NB, ST, SB,$/;"	e	enum:__anon1
+NE	layout_config.h	/^              NE, NW, SE, SW,$/;"	e	enum:__anon1
+NEIGHBOR_B	lbm_macros.h	61;"	d
+NEIGHBOR_C	lbm_macros.h	55;"	d
+NEIGHBOR_E	lbm_macros.h	58;"	d
+NEIGHBOR_EB	lbm_macros.h	71;"	d
+NEIGHBOR_ET	lbm_macros.h	70;"	d
+NEIGHBOR_N	lbm_macros.h	56;"	d
+NEIGHBOR_NB	lbm_macros.h	67;"	d
+NEIGHBOR_NE	lbm_macros.h	62;"	d
+NEIGHBOR_NT	lbm_macros.h	66;"	d
+NEIGHBOR_NW	lbm_macros.h	63;"	d
+NEIGHBOR_S	lbm_macros.h	57;"	d
+NEIGHBOR_SB	lbm_macros.h	69;"	d
+NEIGHBOR_SE	lbm_macros.h	64;"	d
+NEIGHBOR_ST	lbm_macros.h	68;"	d
+NEIGHBOR_SW	lbm_macros.h	65;"	d
+NEIGHBOR_T	lbm_macros.h	60;"	d
+NEIGHBOR_W	lbm_macros.h	59;"	d
+NEIGHBOR_WB	lbm_macros.h	73;"	d
+NEIGHBOR_WT	lbm_macros.h	72;"	d
+NT	layout_config.h	/^              NT, NB, ST, SB,$/;"	e	enum:__anon1
+NW	layout_config.h	/^              NE, NW, SE, SW,$/;"	e	enum:__anon1
+N_CELL_ENTRIES	layout_config.h	/^              FLAGS, N_CELL_ENTRIES} CELL_ENTRIES;$/;"	e	enum:__anon1
+N_DISTR_FUNCS	layout_config.h	63;"	d
+OBSTACLE	layout_config.h	/^typedef enum {OBSTACLE    = 1 << 0,$/;"	e	enum:__anon2
+OMEGA	lbm_macros.h	12;"	d
+OUTPUT_PRECISION	lbm_macros.h	14;"	d
+OpenCL_LBM_allocateGrid	lbm.c	/^void OpenCL_LBM_allocateGrid( const OpenCL_Param* prm, cl_mem* ptr ) {$/;"	f
+OpenCL_LBM_freeGrid	lbm.c	/^void OpenCL_LBM_freeGrid(cl_mem ptr) {$/;"	f
+OpenCL_LBM_getDeviceGrid	lbm.c	/^void OpenCL_LBM_getDeviceGrid( const OpenCL_Param* prm, cl_mem d_grid, LBM_Grid h_grid ) {$/;"	f
+OpenCL_LBM_initializeGrid	lbm.c	/^void OpenCL_LBM_initializeGrid( const OpenCL_Param* prm, cl_mem d_grid, LBM_Grid h_grid ) {$/;"	f
+OpenCL_LBM_performStreamCollide	lbm.c	/^void OpenCL_LBM_performStreamCollide( const OpenCL_Param* prm, cl_mem srcGrid, cl_mem dstGrid ) {$/;"	f
+OpenCL_Param	ocl.h	/^} OpenCL_Param;$/;"	t	typeref:struct:__anon4
+OpenCL_dstGrid	main.c	/^static cl_mem OpenCL_srcGrid, OpenCL_dstGrid;$/;"	v	file:
+OpenCL_initialize	main.c	/^void OpenCL_initialize(OpenCL_Param* prm)$/;"	f
+OpenCL_srcGrid	main.c	/^static cl_mem OpenCL_srcGrid, OpenCL_dstGrid;$/;"	v	file:
+PADDED_X	layout_config.h	28;"	d
+PADDED_Y	layout_config.h	29;"	d
+PADDED_Z	layout_config.h	30;"	d
+PADDING_X	layout_config.h	23;"	d
+PADDING_Y	layout_config.h	24;"	d
+PADDING_Z	layout_config.h	25;"	d
+S	layout_config.h	/^              N, S, E, W, T, B,$/;"	e	enum:__anon1
+SB	layout_config.h	/^              NT, NB, ST, SB,$/;"	e	enum:__anon1
+SCATTER	layout_config.h	48;"	d
+SE	layout_config.h	/^              NE, NW, SE, SW,$/;"	e	enum:__anon1
+SET_FLAG	lbm_macros.h	171;"	d
+SET_FLAG_SWEEP	lbm_macros.h	166;"	d
+SIZE_X	layout_config.h	17;"	d
+SIZE_Y	layout_config.h	18;"	d
+SIZE_Z	layout_config.h	19;"	d
+SRCDIR_OBJS	Makefile	/^SRCDIR_OBJS=main.o lbm.o ocl.o$/;"	m
+SRC_B	lbm_macros.h	126;"	d
+SRC_B	lbm_macros.h	84;"	d
+SRC_C	lbm_macros.h	120;"	d
+SRC_C	lbm_macros.h	78;"	d
+SRC_E	lbm_macros.h	123;"	d
+SRC_E	lbm_macros.h	81;"	d
+SRC_EB	lbm_macros.h	136;"	d
+SRC_EB	lbm_macros.h	94;"	d
+SRC_ET	lbm_macros.h	135;"	d
+SRC_ET	lbm_macros.h	93;"	d
+SRC_N	lbm_macros.h	121;"	d
+SRC_N	lbm_macros.h	79;"	d
+SRC_NB	lbm_macros.h	132;"	d
+SRC_NB	lbm_macros.h	90;"	d
+SRC_NE	lbm_macros.h	127;"	d
+SRC_NE	lbm_macros.h	85;"	d
+SRC_NT	lbm_macros.h	131;"	d
+SRC_NT	lbm_macros.h	89;"	d
+SRC_NW	lbm_macros.h	128;"	d
+SRC_NW	lbm_macros.h	86;"	d
+SRC_S	lbm_macros.h	122;"	d
+SRC_S	lbm_macros.h	80;"	d
+SRC_SB	lbm_macros.h	134;"	d
+SRC_SB	lbm_macros.h	92;"	d
+SRC_SE	lbm_macros.h	129;"	d
+SRC_SE	lbm_macros.h	87;"	d
+SRC_ST	lbm_macros.h	133;"	d
+SRC_ST	lbm_macros.h	91;"	d
+SRC_SW	lbm_macros.h	130;"	d
+SRC_SW	lbm_macros.h	88;"	d
+SRC_T	lbm_macros.h	125;"	d
+SRC_T	lbm_macros.h	83;"	d
+SRC_W	lbm_macros.h	124;"	d
+SRC_W	lbm_macros.h	82;"	d
+SRC_WB	lbm_macros.h	138;"	d
+SRC_WB	lbm_macros.h	96;"	d
+SRC_WT	lbm_macros.h	137;"	d
+SRC_WT	lbm_macros.h	95;"	d
+ST	layout_config.h	/^              NT, NB, ST, SB,$/;"	e	enum:__anon1
+SW	layout_config.h	/^              NE, NW, SE, SW,$/;"	e	enum:__anon1
+SWEEP_END	lbm_macros.h	48;"	d
+SWEEP_START	lbm_macros.h	37;"	d
+SWEEP_VAR	lbm_macros.h	35;"	d
+SWEEP_X	lbm_macros.h	32;"	d
+SWEEP_Y	lbm_macros.h	33;"	d
+SWEEP_Z	lbm_macros.h	34;"	d
+T	layout_config.h	/^              N, S, E, W, T, B,$/;"	e	enum:__anon1
+TEST_FLAG	lbm_macros.h	170;"	d
+TEST_FLAG_SWEEP	lbm_macros.h	165;"	d
+TOTAL_CELLS	layout_config.h	32;"	d
+TOTAL_PADDED_CELLS	layout_config.h	33;"	d
+TRUE	lbm_macros.h	17;"	d
+W	layout_config.h	/^              N, S, E, W, T, B,$/;"	e	enum:__anon1
+WB	layout_config.h	/^              ET, EB, WT, WB,$/;"	e	enum:__anon1
+WT	layout_config.h	/^              ET, EB, WT, WB,$/;"	e	enum:__anon1
+_LAYOUT_CONFIG_H_	layout_config.h	12;"	d
+_LBM_H_	lbm.h	12;"	d
+_LBM_MACROS_H_	lbm_macros.h	10;"	d
+_MAIN_H_	main.h	10;"	d
+__OCLH__	ocl.h	2;"	d
+clCommandQueue	ocl.h	/^	cl_command_queue clCommandQueue;$/;"	m	struct:__anon4
+clContext	ocl.h	/^	cl_context clContext;$/;"	m	struct:__anon4
+clCps	ocl.h	/^	cl_context_properties clCps[3];$/;"	m	struct:__anon4
+clDevice	ocl.h	/^	cl_device_id clDevice;$/;"	m	struct:__anon4
+clKernel	ocl.h	/^	cl_kernel clKernel;$/;"	m	struct:__anon4
+clPlatform	ocl.h	/^	cl_platform_id clPlatform;$/;"	m	struct:__anon4
+clProgram	ocl.h	/^	cl_program clProgram;$/;"	m	struct:__anon4
+loadValue	lbm.c	/^static void loadValue( FILE* file, OUTPUT_PRECISION* v ) {$/;"	f	file:
+main	main.c	/^int main( int nArgs, char* arg[] ) {$/;"	f
+nTimeSteps	main.h	/^	int nTimeSteps;$/;"	m	struct:__anon3
+obstacleFilename	main.h	/^	char* obstacleFilename;$/;"	m	struct:__anon3
+readFile	ocl.c	/^char* readFile(char* fileName)$/;"	f
+resultFilename	main.h	/^	char* resultFilename;$/;"	m	struct:__anon3
+storeValue	lbm.c	/^static void storeValue( FILE* file, OUTPUT_PRECISION* v ) {$/;"	f	file:
+timers	main.c	/^struct pb_TimerSet timers;$/;"	v	typeref:struct:pb_TimerSet

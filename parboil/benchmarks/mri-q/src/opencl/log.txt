@@ -1,0 +1,17 @@
+262144 pixels in output; 2048 samples in trajectory; using 2048 samples
+kernel1: 0.004015 s
+Grid: 65536, Block: 64
+kernel2: 0.049170 s
+48828300
+Grid: 65536, Block: 64
+kernel2: 0.049023 s
+48828600
+IO        : 0.007918
+Kernel    : 0.098655
+Copy      : 0.003996
+Driver    : 0.102690
+Compute   : 0.359564
+CPU/Kernel Overlap: 0.102697
+Timer Wall Time: 0.474218
+Pass
+

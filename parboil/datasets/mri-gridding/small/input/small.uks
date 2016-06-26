@@ -1,0 +1,8 @@
+aquisition.numsamples=2655910
+aquisition.kmax=150.0 150.0 150.0
+aquisition.matrixSize=60 60 60
+reconstruction.matrixSize=60 60 60
+gridding.matrixSize=256 256 256
+gridding.oversampling=5.0
+kernel.width=5.0
+kernel.useLUT=1

@@ -1,5 +1,8 @@
 program_dir="/home/pacman/CoRunBench/"
 result_dir="/home/pacman/CoRunBench/result/"
+result_parboil_dir="$result_dir/parboil/"
+mkdir -p $result_dir
+mkdir -p $result_parboil_dir
 
 echo "program dir = $program_dir"
 echo "result dir = $result_dir"
@@ -112,6 +115,30 @@ bash run_dwarves.sh | tee $result_dir/35_SYRK.txt
 
 
 
+
+
+
+cd $program_dir/parboil/
+bash  run_compileall.sh
+for i in histo  lbm  mri-gridding  mri-q  sad  sgemm  spmv  
+do
+  b=`echo "$i.txt"`
+  echo $i $b
+  cd $program_dir/parboil/$i
+  bash run_zf.sh | tee $result_parboil_dir/$b
+done
+cd $result_parboil_dir
+mkdir -p tempt
+for i in histo.txt  lbm.txt  mri-gridding.txt  mri-q.txt  sad.txt  sgemm.txt  spmv.txt  
+do
+  grep CAUT $i | awk '{print $5}' > tempt/$i
+done
+
+
+
+
+
+
 cd $result_dir
 mkdir -p tempt
 grep CAUT 1[a-z]*.txt | awk '{print $3}' > tempt/0.txt
@@ -154,9 +181,15 @@ grep CAUT 35_*[A-Z].txt | awk '{print $7}' > tempt/35.txt
 
 
 
-echo "%, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35" > res.csv
-echo "%, leukocyte, heartwall, cfd, lud, hotspot, backpropagation, nw, kmeans, bfs, srad, streamcluster, particlefilter, pathfinder, gaussian, nn, lavamd, myocyte, b+tree, gpudwt, hybridsort, 2DCONV, 3DCONV, ATAX, COVAR, GEMM, GRAMSCHM, SYR2K, 2MM, 3MM, BICG, CORR, FDTD-2D, GESUMMV, MVT, SYRK" >> res.csv
-paste -d ,  tempt/0.txt tempt/1.txt tempt/2.txt tempt/3.txt tempt/4.txt tempt/5.txt tempt/6.txt tempt/7.txt tempt/8.txt tempt/9.txt tempt/10.txt tempt/11.txt tempt/12.txt tempt/13.txt tempt/14.txt tempt/15.txt tempt/16.txt tempt/17.txt tempt/18.txt tempt/19.txt  tempt/20.txt  tempt/21.txt  tempt/22.txt  tempt/23.txt tempt/24.txt  tempt/25.txt  tempt/26.txt  tempt/27.txt  tempt/28.txt  tempt/29.txt  tempt/30.txt   tempt/31.txt  tempt/32.txt  tempt/33.txt  tempt/34.txt tempt/35.txt >> res.csv
+echo "%, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42" > res.csv
+echo "%, leukocyte, heartwall, cfd, lud, hotspot, backpropagation, nw, kmeans, bfs, srad, streamcluster, particlefilter, pathfinder, gaussian, nn, lavamd, myocyte, b+tree, gpudwt, hybridsort, 2DCONV, 3DCONV, ATAX, COVAR, GEMM, GRAMSCHM, SYR2K, 2MM, 3MM, BICG, CORR, FDTD-2D, GESUMMV, MVT, SYRK, histo(s), lbm(s), mri-gridding(s), mri-q(s), sad(s), sgemm(s), spmv(s)" >> res.csv
+paste -d ,  tempt/0.txt tempt/1.txt tempt/2.txt tempt/3.txt tempt/4.txt tempt/5.txt tempt/6.txt tempt/7.txt tempt/8.txt tempt/9.txt tempt/10.txt tempt/11.txt tempt/12.txt tempt/13.txt tempt/14.txt tempt/15.txt tempt/16.txt tempt/17.txt tempt/18.txt tempt/19.txt  tempt/20.txt  tempt/21.txt  tempt/22.txt  tempt/23.txt tempt/24.txt  tempt/25.txt  tempt/26.txt  tempt/27.txt  tempt/28.txt  tempt/29.txt  tempt/30.txt   tempt/31.txt  tempt/32.txt  tempt/33.txt  tempt/34.txt tempt/35.txt $result_parboil_dir/tempt/histo.txt $result_parboil_dir/tempt/lbm.txt  $result_parboil_dir/tempt/mri-gridding.txt $result_parboil_dir/tempt/mri-q.txt $result_parboil_dir/tempt/sad.txt $result_parboil_dir/tempt/sgemm.txt $result_parboil_dir/tempt/spmv.txt >> res.csv
 
+
+           
+
+
+echo
+echo
 echo "Finished! Please look at the res.csv using EXCEL."
-echo "The first column is the partitioning ratio. The time is in ms."
+echo "The first column is the partitioning ratio. The time in col:1-35 is in ms while 36-42 in second."

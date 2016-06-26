@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APP_CFLAGS	Makefile	/^APP_CFLAGS=-ffast-math -g3$/;"	m
+APP_CUDALDFLAGS	Makefile	/^APP_CUDALDFLAGS=-lm -lstdc++ $/;"	m
+APP_CXXFLAGS	Makefile	/^APP_CXXFLAGS=-ffast-math -g3$/;"	m
+CHECK_ERROR	main.cc	32;"	d	file:
+LANGUAGE	Makefile	/^LANGUAGE=opencl$/;"	m
+SRCDIR_OBJS	Makefile	/^SRCDIR_OBJS=main.o io.o #compute_gold.o$/;"	m
+TILE_SZ	main.cc	30;"	d	file:
+basicSgemm	main.cc	/^void basicSgemm( char transa, char transb, int m, int n, int k, float alpha, cl_mem A, int lda, cl_mem B, int ldb, float beta, cl_mem C, int ldc, cl_kernel clKernel, cl_command_queue clCommandQueue )$/;"	f
+main	main.cc	/^main (int argc, char *argv[]) {$/;"	f
+readColMajorMatrixFile	io.cc	/^bool readColMajorMatrixFile(const char *fn, int &nr_row, int &nr_col, std::vector<float>&v)$/;"	f
+readFile	io.cc	/^char* readFile(const char* fileName)$/;"	f
+writeColMajorMatrixFile	io.cc	/^bool writeColMajorMatrixFile(const char *fn, int nr_row, int nr_col, std::vector<float>&v)$/;"	f

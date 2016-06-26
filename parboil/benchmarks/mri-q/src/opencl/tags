@@ -1,0 +1,46 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APP_CFLAGS	Makefile	/^APP_CFLAGS=-ffast-math -g3 -O3$/;"	m
+APP_CUDALDFLAGS	Makefile	/^APP_CUDALDFLAGS=-lm$/;"	m
+APP_CXXFLAGS	Makefile	/^APP_CXXFLAGS=-ffast-math -g3 -O3$/;"	m
+CHECK_ERROR	ocl.h	13;"	d
+KERNEL_PHI_MAG_THREADS_PER_BLOCK	macros.h	10;"	d
+KERNEL_Q_K_ELEMS_PER_GRID	macros.h	12;"	d
+KERNEL_Q_THREADS_PER_BLOCK	macros.h	11;"	d
+K_ELEMS_PER_GRID	macros.h	8;"	d
+Kx	macros.h	/^  float Kx;$/;"	m	struct:kValues
+Ky	macros.h	/^  float Ky;$/;"	m	struct:kValues
+Kz	macros.h	/^  float Kz;$/;"	m	struct:kValues
+LANGUAGE	Makefile	/^LANGUAGE=opencl$/;"	m
+MIN	macros.h	7;"	d
+NC	computeQ.c	23;"	d	file:
+PI	macros.h	4;"	d
+PIx2	macros.h	5;"	d
+PhiMag	macros.h	/^  float PhiMag;$/;"	m	struct:kValues
+SRCDIR_OBJS	Makefile	/^SRCDIR_OBJS=main.o file.o computeQ.o ocl.o$/;"	m
+TIMED_EXECUTION	computeQ.c	178;"	d	file:
+__COMPUTEQ__	computeQ.h	2;"	d
+__MACROS__	macros.h	2;"	d
+__OCLH__	ocl.h	2;"	d
+clCommandQueue	ocl.h	/^	cl_command_queue clCommandQueue;$/;"	m	struct:__anon1
+clContext	ocl.h	/^	cl_context clContext;$/;"	m	struct:__anon1
+clEnqueueNDRangeKernel_fusion	computeQ.c	/^cl_int clEnqueueNDRangeKernel_fusion ( cl_command_queue* command_queue,$/;"	f
+clKernel	ocl.h	/^	cl_kernel clKernel;$/;"	m	struct:__anon1
+clMemSet	ocl.c	/^void clMemSet(clPrmtr* clPrm, cl_mem buf, int val, size_t size)$/;"	f
+clPrmtr	ocl.h	/^} clPrmtr;$/;"	t	typeref:struct:__anon1
+cleanupMemoryGPU	main.c	/^cleanupMemoryGPU(int num, int size, cl_mem* dev_ptr, float* host_ptr, clPrmtr* clPrm)$/;"	f	file:
+computePhiMag_GPU	computeQ.c	/^void computePhiMag_GPU(int numK,cl_mem phiR_d,cl_mem phiI_d,cl_mem phiMag_d,clPrmtr* clPrm)$/;"	f
+computeQ_GPU	computeQ.c	/^void computeQ_GPU (int numK,int numX,$/;"	f
+createDataStructsCPU	computeQ.c	/^void createDataStructsCPU(int numK, int numX, float** phiMag,$/;"	f
+gettime	computeQ.c	/^double gettime() {$/;"	f
+inputData	file.cc	/^void inputData(char* fName, int* _numK, int* _numX,$/;"	f
+kValues	macros.h	/^struct kValues {$/;"	s
+main	main.c	/^main (int argc, char *argv[]) {$/;"	f
+outputData	file.cc	/^void outputData(char* fName, float* outR, float* outI, int numX)$/;"	f
+readElapsedTime	computeQ.c	/^readElapsedTime(cl_event internal)$/;"	f	file:
+readFile	ocl.c	/^char* readFile(const char* fileName)$/;"	f
+setupMemoryGPU	main.c	/^setupMemoryGPU(int num, int size, cl_mem* dev_ptr, float* host_ptr,clPrmtr* clPrm)$/;"	f	file:

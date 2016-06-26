@@ -1,0 +1,67 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CEIL	sad_kernel.h	10;"	d
+LANGUAGE	Makefile	/^LANGUAGE=opencl$/;"	m
+MAX_POS	sad.h	16;"	d
+MAX_POS_PADDED	sad.h	19;"	d
+OCL_ERRCK_RETVAL	OpenCL_common.h	16;"	d
+OCL_ERRCK_VAR	OpenCL_common.h	13;"	d
+POS_PER_THREAD	sad_kernel.h	26;"	d
+SAD_LOC_SIZE_8B	sad_kernel.h	19;"	d
+SAD_LOC_SIZE_BYTES	sad_kernel.h	18;"	d
+SAD_LOC_SIZE_ELEMS	sad_kernel.h	17;"	d
+SAD_TYPE_1_CT	sad.h	50;"	d
+SAD_TYPE_1_IX	sad.h	32;"	d
+SAD_TYPE_2_CT	sad.h	51;"	d
+SAD_TYPE_2_IX	sad.h	33;"	d
+SAD_TYPE_3_CT	sad.h	52;"	d
+SAD_TYPE_3_IX	sad.h	34;"	d
+SAD_TYPE_4_CT	sad.h	53;"	d
+SAD_TYPE_4_IX	sad.h	35;"	d
+SAD_TYPE_5_CT	sad.h	54;"	d
+SAD_TYPE_5_IX	sad.h	36;"	d
+SAD_TYPE_6_CT	sad.h	55;"	d
+SAD_TYPE_6_IX	sad.h	37;"	d
+SAD_TYPE_7_CT	sad.h	56;"	d
+SAD_TYPE_7_IX	sad.h	38;"	d
+SAD_TYPE_CT	sad.h	58;"	d
+SAD_TYPE_IX	sad.h	40;"	d
+SEARCH_DIMENSION	sad.h	13;"	d
+SEARCH_RANGE	sad.h	10;"	d
+SRCDIR_OBJS	Makefile	/^SRCDIR_OBJS=file.o image.o OpenCL_common.o main.o timer.o$/;"	m
+THREADS_H	sad_kernel.h	31;"	d
+THREADS_W	sad_kernel.h	30;"	d
+TIMES_DIM_POS	sad_kernel.h	13;"	d
+TIMES_THREADS_W	sad_kernel.h	34;"	d
+__OPENCL_COMMON_H_	OpenCL_common.h	3;"	d
+check_sads	main.cpp	/^check_sads(unsigned short *sads_reference,$/;"	f
+data	image.h	/^  short *data;$/;"	m	struct:image_i16
+free_image	image.c	/^free_image(struct image_i16 *img)$/;"	f
+fst	sad_kernel.h	/^  int fst;$/;"	m	struct:vec8b
+getOpenCLDevice	OpenCL_common.cpp	/^int getOpenCLDevice(cl_platform_id *platform, cl_device_id *device, cl_device_type *reqDeviceType, int numRequests, ...) {$/;"	f
+gettime	timer.cpp	/^double gettime() {$/;"	f
+height	image.h	/^  int height;$/;"	m	struct:image_i16
+image_i16	image.h	/^struct image_i16$/;"	s
+load_image	image.c	/^load_image(char *filename)$/;"	f
+load_sads	main.cpp	/^load_sads(char *filename)$/;"	f
+main	main.cpp	/^main(int argc, char **argv)$/;"	f
+oclDebugErrString	OpenCL_common.cpp	/^const char* oclDebugErrString(cl_int error, cl_device_id device)$/;"	f
+oclErrorString	OpenCL_common.cpp	/^const char* oclErrorString(cl_int error)$/;"	f
+oclLoadProgSource	OpenCL_common.cpp	/^char* oclLoadProgSource(const char* cFilename, const char* cPreamble, size_t* szFinalLength)$/;"	f
+print_test_sad_vector	main.cpp	/^print_test_sad_vector(unsigned short *base, int macroblock, int count)$/;"	f	file:
+print_test_sads	main.cpp	/^print_test_sads(unsigned short *sads_computed,$/;"	f	file:
+read16i	file.c	/^read16i(FILE *f)$/;"	f
+read16u	file.c	/^read16u(FILE *f)$/;"	f
+snd	sad_kernel.h	/^  int snd;$/;"	m	struct:vec8b
+vec8b	sad_kernel.h	/^struct vec8b {$/;"	s
+width	image.h	/^  int width;$/;"	m	struct:image_i16
+write16i	file.c	/^write16i(FILE *f, short h)$/;"	f
+write16u	file.c	/^write16u(FILE *f, unsigned short h)$/;"	f
+write32u	file.c	/^write32u(FILE *f, unsigned int i)$/;"	f
+write_sads	main.cpp	/^write_sads(char *filename,$/;"	f
+write_sads_directly	main.cpp	/^write_sads_directly(char *filename,$/;"	f	file:
+write_subblocks	main.cpp	/^write_subblocks(FILE *outfile, unsigned short *subblock_array, int macroblock,$/;"	f	file:

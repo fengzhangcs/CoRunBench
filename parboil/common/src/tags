@@ -1,0 +1,138 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	Makefile	/^AR=ar$/;"	m
+BUILD_DIR	Makefile	/^BUILD_DIR=$(PARBOIL_ROOT)\/common\/lib$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-I$(PARBOIL_ROOT)\/common\/include$/;"	m
+INVALID_TIMERID	parboil_cuda.c	241;"	d	file:
+INVALID_TIMERID	parboil_opencl.c	253;"	d	file:
+OBJS	Makefile	/^OBJS=$(BUILD_DIR)\/parboil.o$/;"	m
+OBJS_THREE	Makefile	/^OBJS_THREE=$(BUILD_DIR)\/parboil_opencl.o$/;"	m
+OBJS_TWO	Makefile	/^OBJS_TWO=$(BUILD_DIR)\/parboil_cuda.o$/;"	m
+RANLIB	Makefile	/^RANLIB=ranlib$/;"	m
+SRCDIR	Makefile	/^SRCDIR=$(PARBOIL_ROOT)\/common\/src$/;"	m
+TARGET	Makefile	/^TARGET=$(BUILD_DIR)\/libparboil.a $/;"	m
+TARGETS	Makefile	/^TARGETS=$(TARGET) $(TARGET_CUDA) $(TARGET_OPENCL)$/;"	m
+TARGET_CUDA	Makefile	/^TARGET_CUDA=$(BUILD_DIR)\/libparboil_cuda.a$/;"	m
+TARGET_CUDA	Makefile	/^TARGET_CUDA=no_cuda$/;"	m
+TARGET_OPENCL	Makefile	/^TARGET_OPENCL=$(BUILD_DIR)\/libparboil_opencl.a$/;"	m
+TARGET_OPENCL	Makefile	/^TARGET_OPENCL=no_opencl$/;"	m
+TARGET_THREE	Makefile	/^TARGET_THREE=$(BUILD_DIR)\/libparboil_opencl.a$/;"	m
+TARGET_TWO	Makefile	/^TARGET_TWO=$(BUILD_DIR)\/libparboil_cuda.a$/;"	m
+accumulate_time	parboil.c	/^accumulate_time(pb_Timestamp *accum,$/;"	f	file:
+accumulate_time	parboil_cuda.c	/^accumulate_time(pb_Timestamp *accum,$/;"	f	file:
+accumulate_time	parboil_opencl.c	/^accumulate_time(pb_Timestamp *accum,$/;"	f	file:
+argc	parboil.c	/^  int argc;			\/* Number of arguments.  Mutable. *\/$/;"	m	struct:argparse	file:
+argc	parboil_cuda.c	/^  int argc;			\/* Number of arguments.  Mutable. *\/$/;"	m	struct:argparse	file:
+argc	parboil_opencl.c	/^  int argc;			\/* Number of arguments.  Mutable. *\/$/;"	m	struct:argparse	file:
+argn	parboil.c	/^  int argn;			\/* Current argument number. *\/$/;"	m	struct:argparse	file:
+argn	parboil_cuda.c	/^  int argn;			\/* Current argument number. *\/$/;"	m	struct:argparse	file:
+argn	parboil_opencl.c	/^  int argn;			\/* Current argument number. *\/$/;"	m	struct:argparse	file:
+argparse	parboil.c	/^struct argparse {$/;"	s	file:
+argparse	parboil_cuda.c	/^struct argparse {$/;"	s	file:
+argparse	parboil_opencl.c	/^struct argparse {$/;"	s	file:
+argv	parboil.c	/^  char **argv;			\/* Argument values.  Immutable. *\/$/;"	m	struct:argparse	file:
+argv	parboil_cuda.c	/^  char **argv;			\/* Argument values.  Immutable. *\/$/;"	m	struct:argparse	file:
+argv	parboil_opencl.c	/^  char **argv;			\/* Argument values.  Immutable. *\/$/;"	m	struct:argparse	file:
+argv_get	parboil.c	/^  char **argv_get;		\/* Argument value being read. *\/$/;"	m	struct:argparse	file:
+argv_get	parboil_cuda.c	/^  char **argv_get;		\/* Argument value being read. *\/$/;"	m	struct:argparse	file:
+argv_get	parboil_opencl.c	/^  char **argv_get;		\/* Argument value being read. *\/$/;"	m	struct:argparse	file:
+argv_put	parboil.c	/^  char **argv_put;		\/* Argument value being written.$/;"	m	struct:argparse	file:
+argv_put	parboil_cuda.c	/^  char **argv_put;		\/* Argument value being written.$/;"	m	struct:argparse	file:
+argv_put	parboil_opencl.c	/^  char **argv_put;		\/* Argument value being written.$/;"	m	struct:argparse	file:
+asyncs_outstanding	parboil_cuda.c	/^static int asyncs_outstanding(struct pb_TimerSet* timers)$/;"	f	file:
+asyncs_outstanding	parboil_opencl.c	/^static int asyncs_outstanding(struct pb_TimerSet* timers)$/;"	f	file:
+clCommandQueuePtr	parboil_opencl.c	/^cl_command_queue *clCommandQueuePtr;$/;"	v
+clContextPtr	parboil_opencl.c	/^cl_context *clContextPtr;$/;"	v
+consume_argument	parboil.c	/^consume_argument(struct argparse *ap)$/;"	f	file:
+consume_argument	parboil_cuda.c	/^consume_argument(struct argparse *ap)$/;"	f	file:
+consume_argument	parboil_opencl.c	/^consume_argument(struct argparse *ap)$/;"	f	file:
+delete_argument	parboil.c	/^delete_argument(struct argparse *ap)$/;"	f	file:
+delete_argument	parboil_cuda.c	/^delete_argument(struct argparse *ap)$/;"	f	file:
+delete_argument	parboil_opencl.c	/^delete_argument(struct argparse *ap)$/;"	f	file:
+finalize_argparse	parboil.c	/^finalize_argparse(struct argparse *ap)$/;"	f	file:
+finalize_argparse	parboil_cuda.c	/^finalize_argparse(struct argparse *ap)$/;"	f	file:
+finalize_argparse	parboil_opencl.c	/^finalize_argparse(struct argparse *ap)$/;"	f	file:
+free_string_array	parboil.c	/^free_string_array(char **string_array)$/;"	f	file:
+free_string_array	parboil_cuda.c	/^free_string_array(char **string_array)$/;"	f	file:
+free_string_array	parboil_opencl.c	/^free_string_array(char **string_array)$/;"	f	file:
+get_argument	parboil.c	/^get_argument(struct argparse *ap)$/;"	f	file:
+get_argument	parboil_cuda.c	/^get_argument(struct argparse *ap)$/;"	f	file:
+get_argument	parboil_opencl.c	/^get_argument(struct argparse *ap)$/;"	f	file:
+get_last_async	parboil_cuda.c	/^get_last_async(struct pb_TimerSet* timers)$/;"	f	file:
+get_last_async	parboil_opencl.c	/^get_last_async(struct pb_TimerSet* timers)$/;"	f	file:
+get_time	parboil.c	/^static pb_Timestamp get_time()$/;"	f	file:
+get_time	parboil_cuda.c	/^static pb_Timestamp get_time()$/;"	f	file:
+get_time	parboil_opencl.c	/^static pb_Timestamp get_time()$/;"	f	file:
+initialize_argparse	parboil.c	/^initialize_argparse(struct argparse *ap, int argc, char **argv)$/;"	f	file:
+initialize_argparse	parboil_cuda.c	/^initialize_argparse(struct argparse *ap, int argc, char **argv)$/;"	f	file:
+initialize_argparse	parboil_opencl.c	/^initialize_argparse(struct argparse *ap, int argc, char **argv)$/;"	f	file:
+insert_marker	parboil_cuda.c	/^static void insert_marker(struct pb_TimerSet* tset, enum pb_TimerID timer)$/;"	f	file:
+insert_marker	parboil_opencl.c	/^static void insert_marker(struct pb_TimerSet* tset, enum pb_TimerID timer)$/;"	f	file:
+insert_submarker	parboil_cuda.c	/^static void insert_submarker(struct pb_TimerSet* tset, char *label, enum pb_TimerID timer)$/;"	f	file:
+insert_submarker	parboil_opencl.c	/^static void insert_submarker(struct pb_TimerSet* tset, char *label, enum pb_TimerID timer)$/;"	f	file:
+is_async	parboil_cuda.c	/^static int is_async(enum pb_TimerID timer)$/;"	f	file:
+is_async	parboil_opencl.c	/^static int is_async(enum pb_TimerID timer)$/;"	f	file:
+is_blocking	parboil_cuda.c	/^static int is_blocking(enum pb_TimerID timer)$/;"	f	file:
+is_blocking	parboil_opencl.c	/^static int is_blocking(enum pb_TimerID timer)$/;"	f	file:
+is_end_of_arguments	parboil.c	/^is_end_of_arguments(struct argparse *ap)$/;"	f	file:
+is_end_of_arguments	parboil_cuda.c	/^is_end_of_arguments(struct argparse *ap)$/;"	f	file:
+is_end_of_arguments	parboil_opencl.c	/^is_end_of_arguments(struct argparse *ap)$/;"	f	file:
+next_argument	parboil.c	/^next_argument(struct argparse *ap)$/;"	f	file:
+next_argument	parboil_cuda.c	/^next_argument(struct argparse *ap)$/;"	f	file:
+next_argument	parboil_opencl.c	/^next_argument(struct argparse *ap)$/;"	f	file:
+pb_AddSubTimer	parboil.c	/^pb_AddSubTimer(struct pb_TimerSet *timers, char *label, enum pb_TimerID pb_Category) {  $/;"	f
+pb_AddSubTimer	parboil_cuda.c	/^pb_AddSubTimer(struct pb_TimerSet *timers, char *label, enum pb_TimerID pb_Category) {  $/;"	f
+pb_AddSubTimer	parboil_opencl.c	/^pb_AddSubTimer(struct pb_TimerSet *timers, char *label, enum pb_TimerID pb_Category) {    $/;"	f
+pb_DestroyTimerSet	parboil.c	/^void pb_DestroyTimerSet(struct pb_TimerSet * timers)$/;"	f
+pb_DestroyTimerSet	parboil_cuda.c	/^void pb_DestroyTimerSet(struct pb_TimerSet * timers)$/;"	f
+pb_DestroyTimerSet	parboil_opencl.c	/^void pb_DestroyTimerSet(struct pb_TimerSet * timers)$/;"	f
+pb_FreeParameters	parboil.c	/^pb_FreeParameters(struct pb_Parameters *p)$/;"	f
+pb_FreeParameters	parboil_cuda.c	/^pb_FreeParameters(struct pb_Parameters *p)$/;"	f
+pb_FreeParameters	parboil_opencl.c	/^pb_FreeParameters(struct pb_Parameters *p)$/;"	f
+pb_GetElapsedTime	parboil.c	/^pb_GetElapsedTime(struct pb_Timer *timer)$/;"	f
+pb_GetElapsedTime	parboil_cuda.c	/^pb_GetElapsedTime(struct pb_Timer *timer)$/;"	f
+pb_GetElapsedTime	parboil_opencl.c	/^pb_GetElapsedTime(struct pb_Timer *timer)$/;"	f
+pb_InitializeTimerSet	parboil.c	/^pb_InitializeTimerSet(struct pb_TimerSet *timers)$/;"	f
+pb_InitializeTimerSet	parboil_cuda.c	/^pb_InitializeTimerSet(struct pb_TimerSet *timers)$/;"	f
+pb_InitializeTimerSet	parboil_opencl.c	/^pb_InitializeTimerSet(struct pb_TimerSet *timers)$/;"	f
+pb_Parameters_CountInputs	parboil.c	/^pb_Parameters_CountInputs(struct pb_Parameters *p)$/;"	f
+pb_Parameters_CountInputs	parboil_cuda.c	/^pb_Parameters_CountInputs(struct pb_Parameters *p)$/;"	f
+pb_Parameters_CountInputs	parboil_opencl.c	/^pb_Parameters_CountInputs(struct pb_Parameters *p)$/;"	f
+pb_PrintTimerSet	parboil.c	/^pb_PrintTimerSet(struct pb_TimerSet *timers)$/;"	f
+pb_PrintTimerSet	parboil_cuda.c	/^pb_PrintTimerSet(struct pb_TimerSet *timers)$/;"	f
+pb_PrintTimerSet	parboil_opencl.c	/^pb_PrintTimerSet(struct pb_TimerSet *timers)$/;"	f
+pb_ReadParameters	parboil.c	/^pb_ReadParameters(int *_argc, char **argv)$/;"	f
+pb_ReadParameters	parboil_cuda.c	/^pb_ReadParameters(int *_argc, char **argv)$/;"	f
+pb_ReadParameters	parboil_opencl.c	/^pb_ReadParameters(int *_argc, char **argv)$/;"	f
+pb_ResetTimer	parboil.c	/^pb_ResetTimer(struct pb_Timer *timer)$/;"	f
+pb_ResetTimer	parboil_cuda.c	/^pb_ResetTimer(struct pb_Timer *timer)$/;"	f
+pb_ResetTimer	parboil_opencl.c	/^pb_ResetTimer(struct pb_Timer *timer)$/;"	f
+pb_SetOpenCL	parboil_cuda.c	/^pb_SetOpenCL(void *clContextPtr, void *clCommandQueuePtr) {$/;"	f
+pb_SetOpenCL	parboil_opencl.c	/^void pb_SetOpenCL(void *p_clContextPtr, void *p_clCommandQueuePtr) {$/;"	f
+pb_StartTimer	parboil.c	/^pb_StartTimer(struct pb_Timer *timer)$/;"	f
+pb_StartTimer	parboil_cuda.c	/^pb_StartTimer(struct pb_Timer *timer)$/;"	f
+pb_StartTimer	parboil_opencl.c	/^pb_StartTimer(struct pb_Timer *timer)$/;"	f
+pb_StartTimerAndSubTimer	parboil.c	/^pb_StartTimerAndSubTimer(struct pb_Timer *timer, struct pb_Timer *subtimer)$/;"	f
+pb_StartTimerAndSubTimer	parboil_cuda.c	/^pb_StartTimerAndSubTimer(struct pb_Timer *timer, struct pb_Timer *subtimer)$/;"	f
+pb_StartTimerAndSubTimer	parboil_opencl.c	/^pb_StartTimerAndSubTimer(struct pb_Timer *timer, struct pb_Timer *subtimer)$/;"	f
+pb_StopTimer	parboil.c	/^pb_StopTimer(struct pb_Timer *timer)$/;"	f
+pb_StopTimer	parboil_cuda.c	/^pb_StopTimer(struct pb_Timer *timer)$/;"	f
+pb_StopTimer	parboil_opencl.c	/^pb_StopTimer(struct pb_Timer *timer)$/;"	f
+pb_StopTimerAndSubTimer	parboil.c	/^void pb_StopTimerAndSubTimer(struct pb_Timer *timer, struct pb_Timer *subtimer) {$/;"	f
+pb_StopTimerAndSubTimer	parboil_cuda.c	/^void pb_StopTimerAndSubTimer(struct pb_Timer *timer, struct pb_Timer *subtimer) {$/;"	f
+pb_StopTimerAndSubTimer	parboil_opencl.c	/^void pb_StopTimerAndSubTimer(struct pb_Timer *timer, struct pb_Timer *subtimer) {$/;"	f
+pb_SwitchToSubTimer	parboil.c	/^pb_SwitchToSubTimer(struct pb_TimerSet *timers, char *label, enum pb_TimerID category)$/;"	f
+pb_SwitchToSubTimer	parboil_cuda.c	/^pb_SwitchToSubTimer(struct pb_TimerSet *timers, char *label, enum pb_TimerID category) $/;"	f
+pb_SwitchToSubTimer	parboil_opencl.c	/^pb_SwitchToSubTimer(struct pb_TimerSet *timers, char *label, enum pb_TimerID category) $/;"	f
+pb_SwitchToTimer	parboil.c	/^pb_SwitchToTimer(struct pb_TimerSet *timers, enum pb_TimerID timer)$/;"	f
+pb_SwitchToTimer	parboil_cuda.c	/^pb_SwitchToTimer(struct pb_TimerSet *timers, enum pb_TimerID timer)$/;"	f
+pb_SwitchToTimer	parboil_opencl.c	/^pb_SwitchToTimer(struct pb_TimerSet *timers, enum pb_TimerID timer)$/;"	f
+read_string_array	parboil.c	/^read_string_array(char *in)$/;"	f	file:
+read_string_array	parboil_cuda.c	/^read_string_array(char *in)$/;"	f	file:
+read_string_array	parboil_opencl.c	/^read_string_array(char *in)$/;"	f	file:
+record_async_times	parboil_cuda.c	/^static pb_Timestamp record_async_times(struct pb_TimerSet* tset)$/;"	f	file:
+record_async_times	parboil_opencl.c	/^static pb_Timestamp record_async_times(struct pb_TimerSet* tset)$/;"	f	file:

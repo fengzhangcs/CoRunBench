@@ -1,0 +1,62 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+B	bmp.h	/^  unsigned char B;$/;"	m	struct:__anon1
+BI_BITFIELDS	bmp.h	/^  BI_BITFIELDS,$/;"	e	enum:__anon4
+BI_JPEG	bmp.h	/^  BI_JPEG,$/;"	e	enum:__anon4
+BI_PNG	bmp.h	/^  BI_PNG,$/;"	e	enum:__anon4
+BI_RGB	bmp.h	/^  BI_RGB = 0,$/;"	e	enum:__anon4
+BI_RLE4	bmp.h	/^  BI_RLE4,$/;"	e	enum:__anon4
+BI_RLE8	bmp.h	/^  BI_RLE8,$/;"	e	enum:__anon4
+DEFAULT_BLOCK_X	main.cpp	18;"	d	file:
+DEFAULT_FINAL_THREADS	main.cpp	21;"	d	file:
+DEFAULT_PRESCAN_BLOCKS_X	main.cpp	20;"	d	file:
+DEFAULT_PRESCAN_THREADS	main.cpp	19;"	d	file:
+G	bmp.h	/^  unsigned char G;$/;"	m	struct:__anon1
+HSVtoRGB	util.cpp	/^RGB HSVtoRGB( float h, float s, float v )$/;"	f
+LANGUAGE	Makefile	/^LANGUAGE=opencl$/;"	m
+OCL_ERRCK_RETVAL	OpenCL_common.h	16;"	d
+OCL_ERRCK_VAR	OpenCL_common.h	13;"	d
+R	bmp.h	/^  unsigned char R;$/;"	m	struct:__anon1
+RGB	bmp.h	/^} RGB;$/;"	t	typeref:struct:__anon1
+SRCDIR_OBJS	Makefile	/^SRCDIR_OBJS=util.o main.o OpenCL_common.o$/;"	m
+UINT32_MAX	util.h	13;"	d
+UINT8_MAX	util.h	12;"	d
+UNROLL	main.cpp	22;"	d	file:
+__HISTO_UTIL_H_	util.h	10;"	d
+__OPENCL_COMMON_H_	OpenCL_common.h	3;"	d
+bitspp	bmp.h	/^  unsigned short bitspp;$/;"	m	struct:__anon3
+bmp_bytesz	bmp.h	/^  unsigned int bmp_bytesz;$/;"	m	struct:__anon3
+bmp_compression_method_t	bmp.h	/^} bmp_compression_method_t;$/;"	t	typeref:enum:__anon4
+bmp_dib_header_t	bmp.h	/^} bmp_dib_header_t;$/;"	t	typeref:struct:__anon3
+bmp_image	bmp.h	/^} bmp_image;$/;"	t	typeref:struct:__anon5
+bmp_offset	bmp.h	/^  unsigned int bmp_offset;$/;"	m	struct:__anon2
+bmpfile_header_t	bmp.h	/^} bmpfile_header_t;$/;"	t	typeref:struct:__anon2
+compress_type	bmp.h	/^  unsigned int compress_type;$/;"	m	struct:__anon3
+create_bmp	bmp.h	/^void create_bmp(RGB* bitmap, int height, int width, const char* filename){$/;"	f
+creator1	bmp.h	/^  unsigned short creator1;$/;"	m	struct:__anon2
+creator2	bmp.h	/^  unsigned short creator2;$/;"	m	struct:__anon2
+dib_header	bmp.h	/^  bmp_dib_header_t dib_header;$/;"	m	struct:__anon5
+dump_histo_img	util.cpp	/^void dump_histo_img(unsigned char* histo, unsigned int height, unsigned int width, const char *filename)$/;"	f
+file_header	bmp.h	/^  bmpfile_header_t file_header;$/;"	m	struct:__anon5
+filesz	bmp.h	/^  unsigned int filesz;$/;"	m	struct:__anon2
+getOpenCLDevice	OpenCL_common.cpp	/^int getOpenCLDevice(cl_platform_id *platform, cl_device_id *device, cl_device_type *reqDeviceType, int numRequests, ...) {$/;"	f
+gettime	main.cpp	/^double gettime() {$/;"	f
+header_sz	bmp.h	/^  unsigned int header_sz;$/;"	m	struct:__anon3
+height	bmp.h	/^  unsigned int height;$/;"	m	struct:__anon3
+hres	bmp.h	/^  unsigned int hres;$/;"	m	struct:__anon3
+magic	bmp.h	/^  unsigned char magic[2];$/;"	m	struct:__anon5
+main	main.cpp	/^int main(int argc, char* argv[]) {$/;"	f
+ncolors	bmp.h	/^  unsigned int ncolors;$/;"	m	struct:__anon3
+nimpcolors	bmp.h	/^  unsigned int nimpcolors;$/;"	m	struct:__anon3
+nplanes	bmp.h	/^  unsigned short nplanes;$/;"	m	struct:__anon3
+oclDebugErrString	OpenCL_common.cpp	/^const char* oclDebugErrString(cl_int error, cl_device_id device)$/;"	f
+oclErrorString	OpenCL_common.cpp	/^const char* oclErrorString(cl_int error)$/;"	f
+oclLoadProgSource	OpenCL_common.cpp	/^char* oclLoadProgSource(const char* cFilename, const char* cPreamble, size_t* szFinalLength)$/;"	f
+palette	bmp.h	/^  unsigned int* palette;$/;"	m	struct:__anon5
+pixel_map	bmp.h	/^  void* pixel_map;$/;"	m	struct:__anon5
+vres	bmp.h	/^  unsigned int vres;$/;"	m	struct:__anon3
+width	bmp.h	/^  unsigned int width;$/;"	m	struct:__anon3
