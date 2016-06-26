@@ -38,13 +38,11 @@ Zhang F, Zhai J, Chen W, et al. To Co-Run, or Not To Co-Run: A Performance Study
 
 
 ##Acknowledgement##
-*CoRunBench is developed by Tsinghua University, Nanyang Technological University, National University of Singapore.
+*CoRunBench is developed by Tsinghua University, National University of Singapore.
 
 Feng Zhang, Jidong Zhai and Wenguang Chen are with the Department of Computer Science and Technology, Tsinghua University, Beijing, 100084, China.
 
-Bingsheng He is with the School of Computing, National University of Singapore, 119077, Singapore.
-
-Shuhao Zhang is with the School of Computer Engineering, Nanyang Technological University, 639798, Singapore.
+Bingsheng He and Shuhao Zhang are with the School of Computing, National University of Singapore, 119077, Singapore.
 
 
 If you have problems, please contact:
