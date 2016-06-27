@@ -35,6 +35,7 @@ bash run_perfall.sh;
 If you use this benchmark, please cite our paper:
 
 Zhang F, Zhai J, Chen W, et al. To Co-Run, or Not To Co-Run: A Performance Study on Integrated Architectures[C]//Modeling, Analysis and Simulation of Computer and Telecommunication Systems (MASCOTS), 2015 IEEE 23rd International Symposium on. IEEE, 2015: 89-92. [bib](https://scholar.google.com/scholar?hl=zh-CN&q=To+Co-Run%2C+or+Not+To+Co-Run%3A+A+Performance+Study+on+Integrated+Architectures&btnG=&lr=#)
+
 Our Journal paper is coming soon.
 
 ##Acknowledgement##
