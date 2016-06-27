@@ -10,7 +10,7 @@ CoRunBench is based on Rodinia 3.0, Parboil and Polybench.
 *  [Polybench](http://web.cse.ohio-state.edu/~pouchet/software/polybench/GPU/)
 
 ##Platform##
-The current version of Medusa is implemented using the following platform.
+The current version of CoRunBench is implemented using the following platform.
 * AMD A10-7850K
 * Intel i7-4770R
 
@@ -35,7 +35,7 @@ bash run_perfall.sh;
 If you use this benchmark, please cite our paper:
 
 Zhang F, Zhai J, Chen W, et al. To Co-Run, or Not To Co-Run: A Performance Study on Integrated Architectures[C]//Modeling, Analysis and Simulation of Computer and Telecommunication Systems (MASCOTS), 2015 IEEE 23rd International Symposium on. IEEE, 2015: 89-92. [bib](https://scholar.google.com/scholar?hl=zh-CN&q=To+Co-Run%2C+or+Not+To+Co-Run%3A+A+Performance+Study+on+Integrated+Architectures&btnG=&lr=#)
-
+Our Journal paper is coming soon.
 
 ##Acknowledgement##
 *CoRunBench is developed by Tsinghua University, National University of Singapore.
