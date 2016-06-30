@@ -36,10 +36,10 @@ If you use this benchmark, please cite our papers:
 
 Feng Zhang, Jidong Zhai, Bingsheng He, Shuhao Zhang, Wenguang Chen. Understanding Co-running Behaviors on Integrated CPU/GPU Architectures. IEEE Trans. Parallel Distrib. Syst. (2016)
 [bib](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7501903)
-  @ARTICLE{7501903, 
-  author={F. Zhang and J. Zhai and B. He and S. Zhang and W. Chen}, 
-  journal={IEEE Transactions on Parallel and Distributed Systems}, 
-  title={Understanding Co-running Behaviors on Integrated CPU/GPU Architectures}, 
+   @ARTICLE{7501903, 
+   author={F. Zhang and J. Zhai and B. He and S. Zhang and W. Chen}, 
+   journal={IEEE Transactions on Parallel and Distributed Systems}, 
+   title={Understanding Co-running Behaviors on Integrated CPU/GPU Architectures}, 
 year={2016}, 
 volume={PP}, 
 number={99}, 
