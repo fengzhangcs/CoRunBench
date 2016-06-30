@@ -35,7 +35,7 @@ bash run_perfall.sh;
 If you use this benchmark, please cite our papers:
 
 Feng Zhang, Jidong Zhai, Bingsheng He, Shuhao Zhang, Wenguang Chen. Understanding Co-running Behaviors on Integrated CPU/GPU Architectures. IEEE Trans. Parallel Distrib. Syst. (2016)
-[bib](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7501903)
+[preprintURL](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7501903)
 
     @ARTICLE{7501903, 
     author={F. Zhang and J. Zhai and B. He and S. Zhang and W. Chen}, 
@@ -50,7 +50,7 @@ Feng Zhang, Jidong Zhai, Bingsheng He, Shuhao Zhang, Wenguang Chen. Understandin
     ISSN={1045-9219}, 
     month={},}
 
-Feng Zhang, Jidong Zhai, Wenguang Chen, Bingsheng He, Shuhao Zhang. To Co-Run, or Not To Co-Run: A Performance Study on Integrated Architectures[C]//Modeling, Analysis and Simulation of Computer and Telecommunication Systems (MASCOTS), 2015 IEEE 23rd International Symposium on. IEEE, 2015: 89-92. [bib](https://scholar.google.com/scholar?hl=zh-CN&q=To+Co-Run%2C+or+Not+To+Co-Run%3A+A+Performance+Study+on+Integrated+Architectures&btnG=&lr=#)
+Feng Zhang, Jidong Zhai, Wenguang Chen, Bingsheng He, Shuhao Zhang. To Co-Run, or Not To Co-Run: A Performance Study on Integrated Architectures[C]//Modeling, Analysis and Simulation of Computer and Telecommunication Systems (MASCOTS), 2015 IEEE 23rd International Symposium on. IEEE, 2015: 89-92. [URL](https://scholar.google.com/scholar?hl=zh-CN&q=To+Co-Run%2C+or+Not+To+Co-Run%3A+A+Performance+Study+on+Integrated+Architectures&btnG=&lr=#)
 
 
 ##Acknowledgement##
