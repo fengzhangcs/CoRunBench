@@ -32,7 +32,7 @@ bash run_perfall.sh;
 5. If you wants to try single application, please go into its directory and run related bash file.
 
 ##Publications##
-If you use this benchmark, please cite our papers:
+If you use this benchmark, please cite our paper:
 
 Feng Zhang, Jidong Zhai, Bingsheng He, Shuhao Zhang, Wenguang Chen. Understanding Co-running Behaviors on Integrated CPU/GPU Architectures. IEEE Trans. Parallel Distrib. Syst. (2016)
 [preprintURL](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7501903)
@@ -49,9 +49,6 @@ Feng Zhang, Jidong Zhai, Bingsheng He, Shuhao Zhang, Wenguang Chen. Understandin
     doi={10.1109/TPDS.2016.2586074}, 
     ISSN={1045-9219}, 
     month={},}
-
-Feng Zhang, Jidong Zhai, Wenguang Chen, Bingsheng He, Shuhao Zhang. To Co-Run, or Not To Co-Run: A Performance Study on Integrated Architectures[C]//Modeling, Analysis and Simulation of Computer and Telecommunication Systems (MASCOTS), 2015 IEEE 23rd International Symposium on. IEEE, 2015: 89-92. [URL](https://scholar.google.com/scholar?hl=zh-CN&q=To+Co-Run%2C+or+Not+To+Co-Run%3A+A+Performance+Study+on+Integrated+Architectures&btnG=&lr=#)
-
 
 ##Acknowledgement##
 *CoRunBench is developed by Tsinghua University, National University of Singapore.
