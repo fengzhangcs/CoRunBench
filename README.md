@@ -31,7 +31,7 @@ Using this command:
 bash run_perfall.sh;
 5. If you wants to try single application, please go into its directory and run related bash file.
 
-##Publications##
+##Publication##
 If you use this benchmark, please cite our paper:
 
 Feng Zhang, Jidong Zhai, Bingsheng He, Shuhao Zhang, Wenguang Chen. Understanding Co-running Behaviors on Integrated CPU/GPU Architectures. IEEE Trans. Parallel Distrib. Syst. (2016)
