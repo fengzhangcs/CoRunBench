@@ -37,18 +37,16 @@ If you use this benchmark, please cite our paper:
 Feng Zhang, Jidong Zhai, Bingsheng He, Shuhao Zhang, Wenguang Chen. Understanding Co-running Behaviors on Integrated CPU/GPU Architectures. IEEE Trans. Parallel Distrib. Syst. (2016)
 [preprintURL](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7501903)
 
-    @ARTICLE{7501903, 
-    author={F. Zhang and J. Zhai and B. He and S. Zhang and W. Chen}, 
-    journal={IEEE Transactions on Parallel and Distributed Systems}, 
-    title={Understanding Co-running Behaviors on Integrated CPU/GPU Architectures}, 
-    year={2016}, 
-    volume={PP}, 
-    number={99}, 
-    pages={1-1}, 
-    keywords={Heterogeneous Computing;Integrated Architecture;Performance Prediction;Performance Tuning;Workload Characterization}, 
-    doi={10.1109/TPDS.2016.2586074}, 
-    ISSN={1045-9219}, 
-    month={},}
+    @article{Zhang_2016,
+    doi = {10.1109/tpds.2016.2586074},
+    url = {http://dx.doi.org/10.1109/TPDS.2016.2586074},
+    year = 2016,
+    publisher = {Institute of Electrical {\&}amp$\mathsemicolon$ Electronics Engineers ({IEEE})},
+    pages = {1--1},
+    author = {Feng Zhang and Jidong Zhai and Bingsheng He and Shuhao Zhang and Wenguang Chen},
+    title = {Understanding Co-running Behaviors on Integrated {CPU}/{GPU} Architectures},
+    journal = {{IEEE} Trans. Parallel Distrib. Syst.}
+    }
 
 ##Acknowledgement##
 *CoRunBench is developed by Tsinghua University, National University of Singapore.
